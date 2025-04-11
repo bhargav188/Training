@@ -12,7 +12,7 @@ const [students, setStudents] = useState([
 
 return (
     <div>
-        <h1>Student List</h1>
+        <h1>Students List</h1>
         {students.map((student) => (
             <div id={student.id}> 
             {student.name} ,Age: {student.age},Studying: {student.studying}
